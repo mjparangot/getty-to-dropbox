@@ -1,0 +1,23 @@
+{
+  "name": "arsenal-images",
+  "version": "1.0.0",
+  "description": "Save Arsenal images from Getty Images to Dropbox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "arsenal",
+    "images",
+    "getty",
+    "dropbox"
+  ],
+  "author": "Matthew Parangot",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "hapi": "^15.2.0",
+    "request": "^2.78.0"
+  }
+}

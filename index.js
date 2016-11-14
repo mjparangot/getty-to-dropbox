@@ -7,7 +7,7 @@ const Hapi = require('hapi'),
 
 server.connection({
     host: 'localhost',
-    port: 5000
+    port: 8000
 });
 
 // Add the route
@@ -36,6 +36,6 @@ server.start((err) => {
     }
     console.log('Server running at:', server.info.uri);
 
-    dropbox.deleteImages('/Arsenal-Images');
-    dropbox.uploadImages('stuart macfarlane');
+    dropbox.deleteImages('/Images');
+    dropbox.uploadImages('city skyline');
 });
